@@ -1,23 +1,27 @@
+# macOS
 .DS_Store
+**/.DS_Store
+
+# Environment and secrets
 .env
 .env.*
 !.env.example
+presensi-cpns/.env
+presensi-cpns/env.local
+
+# Dependencies
 vendor/
 node_modules/
-writable/cache/*
-writable/logs/*
-writable/session/*
-*.log
-
-# CodeIgniter environment and dependencies
-presensi-cpns/.env
 presensi-cpns/vendor/
+
+# CodeIgniter writable runtime files
 presensi-cpns/writable/cache/*
 presensi-cpns/writable/logs/*
 presensi-cpns/writable/session/*
-presensi-cpns/.DS_Store
-pendaftaran_cpns.sql
 
-# Generated exports and local files
+# Logs
+*.log
+
+# Generated exports and database dumps
 presensi-cpns/public/exports/
-**/.DS_Store
+*.sql
