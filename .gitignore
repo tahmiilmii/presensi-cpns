@@ -1,0 +1,23 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+vendor/
+node_modules/
+writable/cache/*
+writable/logs/*
+writable/session/*
+*.log
+
+# CodeIgniter environment and dependencies
+presensi-cpns/.env
+presensi-cpns/vendor/
+presensi-cpns/writable/cache/*
+presensi-cpns/writable/logs/*
+presensi-cpns/writable/session/*
+presensi-cpns/.DS_Store
+pendaftaran_cpns.sql
+
+# Generated exports and local files
+presensi-cpns/public/exports/
+**/.DS_Store
